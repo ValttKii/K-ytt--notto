@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
    
-    <title>Document</title>
+    <title>Linkit</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -14,19 +14,114 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">MX info</a>
-          </div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Etusivu</a></li>
-            <li><a href=moto.html>Motocross suomessa</a></li>
-            <li><a href=Linkit.html>Linkit</a></li>
-            <li><a href="#">Yhteystiedot</a></li>
-          </ul>
+  <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">MX info</a>
+        
+        
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+      </div>
+        
+        <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Etusivu</a></li>
+        <li><a href="./moto.html">Motocross suomessa</a></li>
+        <li><a href="./Linkit.html">Linkit</a></li>
+        <li><a href="./yhteys.html">Yhteystiedot</a></li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+      <main class="container-fluid text-info">
+        <div class="title">
+            <h1 class="display-4 text-center">Hyödyllisiä linkkejä</h1>
+            
+            <p class="text-center" style="font-size: large;">
+                Tältä sivulta löytyy linkkejä motocross aiheisiin sivustoihin ja videoihin.
+            </p>
+            
+            </div>
         </div>
-      </nav>
-      <p> sup </p>
+        <hr>
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-4 mb-4">
+                  <div class="card">
+                      <img class="card-img-top" src="./images/sml.jpg" alt="">
+      
+                      <div class="card-body">
+                          <h5 class="card-title">SML</h5>
+                          <p class="card-text">
+                              Sivusto mistä näkee esimerkiksi kisakalenterin.
+                          </p>
+      
+                          <a href="https://www.moottoriliitto.fi/lajit/motocross/" class="btn btn-primary">Siirry sivulle</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 mb-4">
+                  <div class="card">
+                      <img class="card-img-top" src="./images/lippu.jpg" alt="">
+      
+                      <div class="card-body">
+                          <h5 class="card-title">Youtube video</h5>
+                          <p class="card-text">
+                              Video suomalaisista motocross kisoista.
+                          </p>
+                            
+                          <a href="https://www.youtube.com/watch?v=05yYGzYGmuA" class="btn btn-primary">Katso video</a>
+                          
+                             
+                      </div>
+                  </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./images/24mx.jpg" alt="">
+            
+                            <div class="card-body">
+                                <h5 class="card-title">24mx</h5>
+                                <p class="card-text">
+                                    Hyväksi todettu nettikauppa esimerkiksi ajovarusteille.
+                                </p>
+            
+                                <a href="https://www.24mx.fi/" class="btn btn-primary">Siirry sivustolle</a>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+          </div>
+      </div>
+      <hr>
+    </main>
+    
+
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href=./moto.html class="nav-link px-2 text-muted">Motocross suomessa</a></li>
+            <li class="nav-item"><a href=./Linkit.html class="nav-link px-2 text-muted">Linkit</a></li>
+            <li class="nav-item"><a href=./yhteys.html class="nav-link px-2 text-muted">Yhteystiedot</a></li>
+          </ul>
+          <hr>
+          <p class=" my-5 text-center text-secondary">
+            MX INFO, Kauppakatu 45, 70110 Kuopio
+            <br>
+            050 6666 666   
+            <br>
+            XXX..-X
+            <br>
+        </p>
+        </footer>
+      </div>
 </body>
 </html>

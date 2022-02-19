@@ -1,12 +1,80 @@
 /* Omat tyylim��ritykset */
+.importantLinks .card {
+	padding: 3rem 1.5rem;
+	height: 100%;
+  }
+  
+  .importantLinks .card img {
+	height: auto;
+	max-width: 100%;
+	margin-bottom: 1rem;
+  }
+  .importantLinks .card {
+    padding: 1.5rem;
+  }
+.bmi {         
+    margin-left: 25%;      
+    margin-right: 25%;
+    width: auto;
+}
+.title {
+	margin-top: 5rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+			flex-direction: column;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+	min-height: 50vh;
+  }
 
+.card-img-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	border-radius: calc(0.25rem - 1px);
+  }
+  
+  .card-img,
+  .card-img-top,
+  .card-img-bottom {
+	width: 100%;
+  }
+  
+  .card-img,
+  .card-img-top {
+	border-top-left-radius: calc(0.25rem - 1px);
+	border-top-right-radius: calc(0.25rem - 1px);
+  }
+  
+  .card-img,
+  .card-img-bottom {
+	border-bottom-right-radius: calc(0.25rem - 1px);
+	border-bottom-left-radius: calc(0.25rem - 1px);
+  }
+.nav {
+	text-align:center;
+}
 body {
 	padding: 0;
 	margin: 0;
-	background: #f2f6e9; 
+	background: white; 
 }
 
-/*--- navigation bar ---*/
+
+.display-4 {
+    margin-bottom: 2rem;
+}
 
 
 .header {

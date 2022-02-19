@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bootstrap-esimerkki</title>
+    <title>Etusivu</title>
         
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,33 +16,107 @@
 </head>
 <body>
     <html>
-    <!-- Yleiset (otsikkotason) m��ritykset. -->
     
-
-    <!-- Verkkosivun sis�lt�-->
-    <body>
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <a class="navbar-brand" href="#">MX info</a>
-              </div>
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Etusivu</a></li>
-                <li><a href=./moto.html>Motocross suomessa</a></li>
-                <li><a href=Linkit.html>Linkit</a></li>
-                <li><a href="#">Yhteystiedot</a></li>
-              </ul>
-            </div>
-          </nav>
+      <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">MX info</a>
+            
+            
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+          </div>
+            
+            <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Etusivu</a></li>
+            <li><a href="./moto.html">Motocross suomessa</a></li>
+            <li><a href="./Linkit.html">Linkit</a></li>
+            <li><a href="./yhteys.html">Yhteystiedot</a></li>
+          </ul>
+        </div>
+        </div>
+      </nav>
         
           <header class="page-header header container-fluid">
 			<div class="overlay"></div>
 			<div class="description">
 				<h1>Tervetuloa motocross aiheiselle sivustolle!</h1>
-				
-				<button class="btn btn-outline-secondary btn-lg">Tell Me More!</button>
+			
 			</div>
 		</header>
+ <main class="text-info">
+   <div class="container-fluid ">
+     <div class="text-center container" style="font-size:large">
+       <h2>Motocross</h2>
+      Motocross on alkujaan kehittynyt Isossa-Britanniassa ja on nykyään moottoripyöräilyn kilpailumuoto.
+      Perinteisestä motocrossista on muodostunut monia alalajeja, kuten enduro, supercross ja freestyle motocross. 
+      Enduroa ajetaan aikaa vastaan metsäpoluilla tai oikeastaan sitä harjoitetaan missä tahansa, erittäin 
+      raskas laji. Supercrossia ja freestyle motocrossia puolestaan ajetaan 
+      suuren yleisön edessä stadionilla tai hallissa.
+      <h3>Lajin aloitus</h3>
+      <div class="container-fluid center">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/wIHQ6M-EZW0"
+       title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+     </div>
+   </div>
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-6 mb-4">
+            <div class="card">
+                <img class="card-img-top" src="./images/yamaha250.jpg" alt="">
+
+                <div class="card-body">
+                    <h5 class="card-title">Yamaha yz 250</h5>
+                    <p class="card-text">
+                        Kyseinen moottoripyörä on 2t eli 2-tahtinen. Vähämmän vääntöä,kuin 4t versiossa. Tehoalue korkealla.
+                    </p>
+
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mb-4 center">
+            <div class="card">
+                <img class="card-img-top" src="./images/yamaha450.jpg" alt="">
+
+                <div class="card-body">
+                    <h5 class="card-title">Yamaha 450 yzf</h5>
+                    <p class="card-text">
+                        Tämä moottoripyörä on 4t ja sen tehoalue jakautuu tsaisesti. Korkeimmassa luokassa käytetään tälläistä moottoripyörää.
+                    </p>
+                      
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+   <hr>
+  </main>
+    <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href=./moto.html class="nav-link px-2 text-muted">Motocross suomessa</a></li>
+        <li class="nav-item"><a href=./Linkit.html class="nav-link px-2 text-muted">Linkit</a></li>
+        <li class="nav-item"><a href=./yhteys.html class="nav-link px-2 text-muted">Yhteystiedot</a></li>
+      </ul>
+      <hr>
+      <p class=" my-5 text-center text-secondary">
+        MX INFO, Kauppakatu 45, 70110 Kuopio
+        <br>
+        050 6666 666   
+        <br>
+        XXX..-X
+        <br>
+    </p>
+    </footer>
+  </div>
     </body>
 </html>
 
